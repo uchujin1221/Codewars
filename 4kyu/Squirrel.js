@@ -14,5 +14,6 @@
 
 // For h = 8, H = 9, S = 37, the output should be 42.5869.
 
-// VSCode auto-formatted. Need to take away the spaces to become 52 characters
+// VSCode auto-formatted. Need to take away the spaces to become 51 characters
+// Codewars solution : squirrel=(h,H,S)=>+(((S*S+h*h)**.5*H/h).toFixed(4))
 squirrel = (h, H, S) => +(((S * S + h * h) ** 0.5 * H) / h).toFixed(4);
